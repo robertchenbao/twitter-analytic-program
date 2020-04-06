@@ -33,12 +33,6 @@ def indicator(number, description):
 
 modal = html.Div([dbc.Modal(
     children=[
-        # dbc.ModalHeader(
-        #     html.H5("Workflow",
-        #             className="text-center"
-        #             ),
-        #     className="d-block"
-        # ),
         dbc.ModalHeader("Workflow"),
         dbc.ModalBody(
             dbc.Row(

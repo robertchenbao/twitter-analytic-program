@@ -16,6 +16,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1STKygvEXD0AbO7Gio0QeNiIfRt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -172,25 +175,29 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="328" key="GridCell.Tab.0.bottom" timestamp="1586197660111">
+    <state width="1259" height="280" key="GridCell.Tab.0.bottom" timestamp="1586198070943">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="328" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586197660111" />
-    <state width="1259" height="328" key="GridCell.Tab.0.center" timestamp="1586197660110">
+    <state width="1259" height="280" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586198070943" />
+    <state width="1259" height="280" key="GridCell.Tab.0.center" timestamp="1586198070942">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="328" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586197660110" />
-    <state width="1259" height="328" key="GridCell.Tab.0.left" timestamp="1586197660110">
+    <state width="1259" height="280" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586198070942" />
+    <state width="1259" height="280" key="GridCell.Tab.0.left" timestamp="1586198070942">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="328" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586197660110" />
-    <state width="1259" height="328" key="GridCell.Tab.0.right" timestamp="1586197660111">
+    <state width="1259" height="280" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586198070942" />
+    <state width="1259" height="280" key="GridCell.Tab.0.right" timestamp="1586198070943">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="328" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586197660111" />
+    <state width="1259" height="280" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586198070943" />
     <state x="141" y="50" key="SettingsEditor" timestamp="1586197449297">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1586197449297" />
+    <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586198208012">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1586198208012" />
   </component>
 </project>
