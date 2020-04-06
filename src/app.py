@@ -342,12 +342,10 @@ def quantity_map_1(n_clicks, df):
                 text=df['quantity'],
                 type="choropleth",
                 marker_line_color='white',
-                # colorbar_title="Millions USD"
             )
         ]
 
         layout = dict(
-            # title='Quantity of Tweets in the US',
             title=dict(text="Quantity of Tweets in the US", y=0.95),
             font=dict(
                 family="Roboto, sans-serif",
@@ -411,8 +409,6 @@ def sentiment_line_chart_1(n_clicks, df):
 
         sentiment_df = df.groupby(day).sentiment.mean().reset_index(name='sentiment')
         sentiment_df.sentiment = sentiment_df.sentiment.round(2)
-        # print("----------")
-        # print(sentiment_df)
         data = {
                    "x": sentiment_df['date'],
                    "y": sentiment_df['sentiment'],
@@ -537,7 +533,6 @@ def user_number_indicator(df):
     if type(df) is not dict:
         df = pd.read_json(df, orient="split")
         user = df['name'].nunique()
-        # return dcc.Markdown("**{}**".format(quantity))
         return indicator(number=user, description="User Number")
 
 

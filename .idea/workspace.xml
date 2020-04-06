@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ff3009-1527-4792-af39-16d25d8edbee" name="Default Changelist" comment="" />
+    <list default="true" id="23ff3009-1527-4792-af39-16d25d8edbee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +17,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1STKygvEXD0AbO7Gio0QeNiIfRt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +25,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -169,32 +172,25 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="328" key="GridCell.Tab.0.bottom" timestamp="1586196185636">
+    <state width="1259" height="328" key="GridCell.Tab.0.bottom" timestamp="1586197660111">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="328" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586196185636" />
-    <state width="1259" height="328" key="GridCell.Tab.0.center" timestamp="1586196185635">
+    <state width="1259" height="328" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586197660111" />
+    <state width="1259" height="328" key="GridCell.Tab.0.center" timestamp="1586197660110">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="328" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586196185635" />
-    <state width="1259" height="328" key="GridCell.Tab.0.left" timestamp="1586196185633">
+    <state width="1259" height="328" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586197660110" />
+    <state width="1259" height="328" key="GridCell.Tab.0.left" timestamp="1586197660110">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="328" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586196185633" />
-    <state width="1259" height="328" key="GridCell.Tab.0.right" timestamp="1586196185635">
+    <state width="1259" height="328" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586197660110" />
+    <state width="1259" height="328" key="GridCell.Tab.0.right" timestamp="1586197660111">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="328" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586196185635" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/frontend.py</url>
-          <line>139</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1259" height="328" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586197660111" />
+    <state x="141" y="50" key="SettingsEditor" timestamp="1586197449297">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1586197449297" />
   </component>
 </project>
