@@ -29,4 +29,3 @@ Marketing teams from a wide variety of companies can benefit from using TAP.
 In the past, marketing teams often needed to write complex computer programs to mine social media data on a large scale. However, most teams do not have the specialized programming skills needed. 
 
 TAP has a simple and intuitive interface for a robust analytics program. With TAP, marketing teams can research Twitter perception without any coding skills. Moreover, the app visualizes data on a dashboard, which makes monitoring Twitter perception much easier.
-
