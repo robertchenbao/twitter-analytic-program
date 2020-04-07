@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ff3009-1527-4792-af39-16d25d8edbee" name="Default Changelist" comment="">
+    <list default="true" id="23ff3009-1527-4792-af39-16d25d8edbee" name="Default Changelist" comment="Removed redundant code">
+      <change afterPath="$PROJECT_DIR$/src/backend_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend_prof.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -94,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="backend_prof" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2019_IF" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/backend_prof.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,10 +142,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.backend_prof" />
         <item itemvalue="Python.backend" />
         <item itemvalue="Python.app2" />
         <item itemvalue="Python.view_csv" />
-        <item itemvalue="Python.test_3" />
       </list>
     </recent_temporary>
   </component>
@@ -187,33 +190,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="Removed redundant code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="262" y="23" key="CommitChangelistDialog2" timestamp="1586198247697">
+    <state x="262" y="23" width="756" height="777" key="CommitChangelistDialog2" timestamp="1586297098355">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="262" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1586198247697" />
-    <state width="1259" height="280" key="GridCell.Tab.0.bottom" timestamp="1586198070943">
+    <state x="262" y="23" width="756" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1586297098355" />
+    <state width="1259" height="328" key="GridCell.Tab.0.bottom" timestamp="1586296264606">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="280" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586198070943" />
-    <state width="1259" height="280" key="GridCell.Tab.0.center" timestamp="1586198070942">
+    <state width="1259" height="328" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586296264606" />
+    <state width="1259" height="328" key="GridCell.Tab.0.center" timestamp="1586296264606">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="280" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586198070942" />
-    <state width="1259" height="280" key="GridCell.Tab.0.left" timestamp="1586198070942">
+    <state width="1259" height="328" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586296264606" />
+    <state width="1259" height="328" key="GridCell.Tab.0.left" timestamp="1586296264605">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="280" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586198070942" />
-    <state width="1259" height="280" key="GridCell.Tab.0.right" timestamp="1586198070943">
+    <state width="1259" height="328" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586296264605" />
+    <state width="1259" height="328" key="GridCell.Tab.0.right" timestamp="1586296264606">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="280" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586198070943" />
-    <state x="141" y="50" key="SettingsEditor" timestamp="1586197449297">
+    <state width="1259" height="328" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586296264606" />
+    <state x="441" y="129" key="RollbackChangesDialog" timestamp="1586297357615">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1586197449297" />
-    <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586198208012">
+    <state x="441" y="129" key="RollbackChangesDialog/0.23.1280.777@0.23.1280.777" timestamp="1586297357615" />
+    <state x="141" y="50" key="SettingsEditor" timestamp="1586295886284">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1586198208012" />
+    <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1586295886284" />
+    <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586297362969">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1586297362969" />
   </component>
 </project>

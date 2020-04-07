@@ -50,3 +50,19 @@ def pipeline(data, clf):
             .pipe(classification, clf=clf)
             .pipe(location)
             )
+
+
+def print_pipeline(data, clf):
+    print(data
+          .pipe(data.drop_duplicates)
+          .pipe(data.dropna)
+          .pipe(bot_app)
+          .pipe(data_clean)
+          .pipe(classification, clf=clf)
+          .pipe(location)
+          )
+
+
+if __name__ == '__main__':
+    df = pd.read_csv("/Users/robertbao/Documents/2019_IF/data/tesla_lg.csv")
+    print_pipeline(df, "whatever")
