@@ -23,8 +23,8 @@ def indicator(number, description):
         [
             dbc.CardBody(
                 [
-                    html.H3(str(number), className="card-title"),
                     html.P(str(description), className="card-text"),
+                    html.H2(str(number), className="card-title"),
                 ]
             ),
         ],
@@ -129,6 +129,7 @@ navbar2 = dbc.NavbarSimple(
     color="#10316b",
     dark=True,
     sticky="top",
+
 )
 
 left_column = dbc.Jumbotron(
@@ -531,5 +532,5 @@ def user_number_indicator(df):
 
 
 if __name__ == '__main__':
-    # app.run_server(debug=True)
-    app.run_server()
+    app.run_server(debug=True)
+    # app.run_server()
