@@ -23,8 +23,8 @@ def indicator(number, description):
         [
             dbc.CardBody(
                 [
+                    html.H3(str(number), className="card-title"),
                     html.P(str(description), className="card-text"),
-                    html.H2(str(number), className="card-title"),
                 ]
             ),
         ],
@@ -33,6 +33,12 @@ def indicator(number, description):
 
 modal = html.Div([dbc.Modal(
     children=[
+        # dbc.ModalHeader(
+        #     html.H5("Workflow",
+        #             className="text-center"
+        #             ),
+        #     className="d-block"
+        # ),
         dbc.ModalHeader("Workflow"),
         dbc.ModalBody(
             dbc.Row(
@@ -106,7 +112,7 @@ modal = html.Div([dbc.Modal(
             )
         ),
         dbc.ModalFooter(
-            dbc.Button("Run!", id="run", className="mr-2", color="warning", n_clicks=0)
+            dbc.Button("Run!", id="run", className="mr-2",color="warning", n_clicks=0)
         )],
     size="lg",
     id="modal"
@@ -129,7 +135,6 @@ navbar2 = dbc.NavbarSimple(
     color="#10316b",
     dark=True,
     sticky="top",
-
 )
 
 left_column = dbc.Jumbotron(
@@ -154,7 +159,7 @@ left_column = dbc.Jumbotron(
         html.Hr(className="my-2"),
         dbc.Row(
             dbc.Col(
-                dcc.Loading(dcc.Graph(id='pie_chart', config={"displaylogo": False}), type="default"), width=12,
+                dcc.Loading(dcc.Graph(id='pie_chart'), type="default"), width=12,
                 className="my-4"
             )
         ),
@@ -173,8 +178,8 @@ right_column = dbc.Container(
                         dcc.Loading(
                             id="loading-treemap",
                             children=[
-                                dcc.Graph(id="quantity-map-1", config={"displaylogo": False}),
-                                dcc.Graph(id="quantity-line-chart-1", config={"displaylogo": False})
+                                dcc.Graph(id="quantity-map-1"),
+                                dcc.Graph(id="quantity-line-chart-1")
                             ],
                             type="default",
                         )
@@ -186,8 +191,8 @@ right_column = dbc.Container(
                         dcc.Loading(
                             id="loading-wordcloud",
                             children=[
-                                dcc.Graph(id="sentiment-map-1", config={"displaylogo": False}),
-                                dcc.Graph(id="sentiment-line-chart-1", config={"displaylogo": False})
+                                dcc.Graph(id="sentiment-map-1"),
+                                dcc.Graph(id="sentiment-line-chart-1")
                             ],
                             type="default",
                         )
@@ -337,10 +342,12 @@ def quantity_map_1(n_clicks, df):
                 text=df['quantity'],
                 type="choropleth",
                 marker_line_color='white',
+                # colorbar_title="Millions USD"
             )
         ]
 
         layout = dict(
+            # title='Quantity of Tweets in the US',
             title=dict(text="Quantity of Tweets in the US", y=0.95),
             font=dict(
                 family="Roboto, sans-serif",
@@ -404,6 +411,8 @@ def sentiment_line_chart_1(n_clicks, df):
 
         sentiment_df = df.groupby(day).sentiment.mean().reset_index(name='sentiment')
         sentiment_df.sentiment = sentiment_df.sentiment.round(2)
+        # print("----------")
+        # print(sentiment_df)
         data = {
                    "x": sentiment_df['date'],
                    "y": sentiment_df['sentiment'],
@@ -528,9 +537,10 @@ def user_number_indicator(df):
     if type(df) is not dict:
         df = pd.read_json(df, orient="split")
         user = df['name'].nunique()
+        # return dcc.Markdown("**{}**".format(quantity))
         return indicator(number=user, description="User Number")
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
-    # app.run_server()
+    # app.run_server(debug=True)
+    app.run_server()
