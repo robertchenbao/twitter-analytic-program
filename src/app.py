@@ -112,7 +112,7 @@ modal = html.Div([dbc.Modal(
             )
         ),
         dbc.ModalFooter(
-            dbc.Button("Run!", id="run", className="mr-2",color="warning", n_clicks=0)
+            dbc.Button("Run!", id="run", className="mr-2", color="warning", n_clicks=0)
         )],
     size="lg",
     id="modal"

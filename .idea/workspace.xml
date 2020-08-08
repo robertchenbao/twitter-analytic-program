@@ -194,26 +194,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="Removed redundant code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="262" y="23" key="CommitChangelistDialog2" timestamp="1596895659159">
+    <state x="262" y="23" width="756" height="777" key="CommitChangelistDialog2" timestamp="1596895713729">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="262" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1596895659159" />
-    <state width="1259" height="340" key="GridCell.Tab.0.bottom" timestamp="1596893474772">
+    <state x="262" y="23" width="756" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1596895713729" />
+    <state width="1259" height="2" key="GridCell.Tab.0.bottom" timestamp="1596895762259">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="340" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1596893474772" />
-    <state width="1259" height="340" key="GridCell.Tab.0.center" timestamp="1596893474771">
+    <state width="1259" height="2" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1596895762259" />
+    <state width="1259" height="2" key="GridCell.Tab.0.center" timestamp="1596895762258">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="340" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1596893474771" />
-    <state width="1259" height="340" key="GridCell.Tab.0.left" timestamp="1596893474771">
+    <state width="1259" height="2" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1596895762258" />
+    <state width="1259" height="2" key="GridCell.Tab.0.left" timestamp="1596895762258">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="340" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1596893474771" />
-    <state width="1259" height="340" key="GridCell.Tab.0.right" timestamp="1596893474772">
+    <state width="1259" height="2" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1596895762258" />
+    <state width="1259" height="2" key="GridCell.Tab.0.right" timestamp="1596895762259">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="340" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1596893474772" />
+    <state width="1259" height="2" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1596895762259" />
+    <state x="240" y="153" key="Vcs.Push.Dialog.v2" timestamp="1596895806808">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="153" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1596895806808" />
+    <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596895725890">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1596895725890" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
