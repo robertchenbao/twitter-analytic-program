@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ff3009-1527-4792-af39-16d25d8edbee" name="Default Changelist" comment="Removed redundant code">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="23ff3009-1527-4792-af39-16d25d8edbee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586198248131</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated README.md.">
+      <created>1596895704642</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596895704642</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Minor bug fix">
+      <created>1596895897534</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596895897534</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -191,33 +202,35 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Removed redundant code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant code" />
+    <MESSAGE value="Updated README.md." />
+    <MESSAGE value="Minor bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor bug fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="262" y="23" width="756" height="777" key="CommitChangelistDialog2" timestamp="1596895713729">
+    <state x="262" y="23" width="756" height="777" key="CommitChangelistDialog2" timestamp="1596895897246">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="262" y="23" width="756" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1596895713729" />
-    <state width="1259" height="2" key="GridCell.Tab.0.bottom" timestamp="1596895762259">
+    <state x="262" y="23" width="756" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1596895897246" />
+    <state width="1259" height="2" key="GridCell.Tab.0.bottom" timestamp="1596896024639">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="2" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1596895762259" />
-    <state width="1259" height="2" key="GridCell.Tab.0.center" timestamp="1596895762258">
+    <state width="1259" height="2" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1596896024639" />
+    <state width="1259" height="2" key="GridCell.Tab.0.center" timestamp="1596896024638">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="2" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1596895762258" />
-    <state width="1259" height="2" key="GridCell.Tab.0.left" timestamp="1596895762258">
+    <state width="1259" height="2" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1596896024638" />
+    <state width="1259" height="2" key="GridCell.Tab.0.left" timestamp="1596896024637">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="2" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1596895762258" />
-    <state width="1259" height="2" key="GridCell.Tab.0.right" timestamp="1596895762259">
+    <state width="1259" height="2" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1596896024637" />
+    <state width="1259" height="2" key="GridCell.Tab.0.right" timestamp="1596896024638">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="2" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1596895762259" />
-    <state x="240" y="153" key="Vcs.Push.Dialog.v2" timestamp="1596895806808">
+    <state width="1259" height="2" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1596896024638" />
+    <state x="240" y="153" key="Vcs.Push.Dialog.v2" timestamp="1596895912158">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="240" y="153" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1596895806808" />
+    <state x="240" y="153" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1596895912158" />
     <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596895725890">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
