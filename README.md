@@ -1,5 +1,8 @@
 # Twitter Analytic Program
 
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Get insights from Publicly-accessible Social Media Data within TAPs. A dashboard for monitoring Twitter perception, created by Robert Bao for Regional Inventors Fair 2020.
 
 ![IF Screenshot 1.3.4](https://raw.githubusercontent.com/robertchenbao/Pictures/master/uPic/IF%20Screenshot%201.3.4.png)
