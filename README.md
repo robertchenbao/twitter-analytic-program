@@ -3,7 +3,13 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Get insights from Publicly-accessible Social Media Data within TAPs. A dashboard for monitoring Twitter perception, created by Robert Bao for Regional Inventors Fair 2020.
+> Get insights from Publicly-accessible Social Media Data within TAPs.
+
+## Introduction 
+
+* Twitter Analytic Program (TAP) is a dashboard made for monitoring Twitter perception. 
+* Built with Python, Bootstrap, Dash web framework, and scikit-learn
+* Winner of 2020 Thomas A. Edison Regional Inventor Fair
 
 ![IF Screenshot 1.3.4](https://raw.githubusercontent.com/robertchenbao/Pictures/master/uPic/IF%20Screenshot%201.3.4.png)
 
@@ -35,7 +41,6 @@ Twitter is an active platform, and it is easy to obtain a large sample. TAP can 
 ## “Who is this app made for?”
 
 Marketing teams from a wide variety of companies can benefit from using TAP.
-
 
 In the past, marketing teams often needed to write complex computer programs to mine social media data on a large scale. However, most teams do not have the specialized programming skills needed. 
 
