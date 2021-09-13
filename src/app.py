@@ -2,7 +2,7 @@
 import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 import dash_html_components as html
-from src.backend import pipeline
+from backend import pipeline
 import base64
 import io
 from dash.dependencies import Input, Output, State

@@ -1,9 +1,9 @@
 # This is the backend code for the entire United states.
 # The goal is building a pipeline with all the functions in the project.
 
-from src.bot_process import bot_app
-from src.preprocess_tweet import data_clean
-from src.location import location
+from bot_process import bot_app
+from preprocess_tweet import data_clean
+from location import location
 import os
 import pandas as pd
 import pickle
