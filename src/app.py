@@ -256,7 +256,7 @@ def parse_data(list_of_contents, list_of_names, sentiment_model, n_clicks):
                 'There was an error processing this file.'
             ])
         # print(df.head(10))
-        df = df.drop_duplicates()
+        # df = df.drop_duplicates()
         df = df.dropna()
         df = pipeline(df, clf=sentiment_model)
         return df.to_json(orient="split")
