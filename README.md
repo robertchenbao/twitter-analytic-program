@@ -9,7 +9,7 @@
 
 * Twitter Analytic Program (TAP) is a dashboard made for monitoring Twitter perception. 
 * Built with Python, Bootstrap, Dash web framework, and scikit-learn
-* Winner of 2020 Thomas A. Edison Regional Inventor Fair
+* Winner of Best in Fair at 2020 Thomas A. Edison Regional Inventor Fair
 
 ![IF Screenshot 1.3.4](https://raw.githubusercontent.com/robertchenbao/Pictures/master/uPic/IF%20Screenshot%201.3.4.png)
 
@@ -45,6 +45,24 @@ Marketing teams from a wide variety of companies can benefit from using TAP.
 In the past, marketing teams often needed to write complex computer programs to mine social media data on a large scale. However, most teams do not have the specialized programming skills needed. 
 
 TAP has a simple and intuitive interface for a robust analytics program. With TAP, marketing teams can research Twitter perception without any coding skills. Moreover, the app visualizes data on a dashboard, which makes monitoring Twitter perception much easier.
+
+## Installation
+
+1. First, pull the Github repo
+2. Then, install the dependencies, and start the app!
+
+```console
+$ pip install -r requirements.txt
+---> 100%
+
+$ python src/app.py  # Start loading!
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:8050/ (Press CTRL+C to quit)
+```
 
 ## License 
 
