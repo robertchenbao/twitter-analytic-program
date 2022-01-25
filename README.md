@@ -8,8 +8,8 @@
 ## Introduction 
 
 * Twitter Analytic Program (TAP) is a dashboard made for monitoring Twitter perception. 
-* Built with Python, Bootstrap, Dash web framework, and scikit-learn
-* Winner of Best in Fair at 2020 Thomas A. Edison Regional Inventor Fair
+* Built with Python, Pandas, React, scikit-learn, Dash web framework, and Bootstrap
+* Winner of Best in Fair at the 2020 Thomas A. Edison Regional Inventor Fair
 
 ![IF Screenshot 1.3.4](https://raw.githubusercontent.com/robertchenbao/Pictures/master/uPic/IF%20Screenshot%201.3.4.png)
 
